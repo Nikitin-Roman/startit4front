@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		var fruits = ["апельсин", "банан", "груша"];
+
+		document.write("Количество фруктов - " + fruits.length + "<br>");
+		fruits.push("яблоко", "ананас");
+		fruits.unshift("грейпфрут");
+		document.write("Количество фруктов после добавления - " + fruits.length + "<br>");
+		fruits.pop();
+		fruits.shift();
+		document.write("Количество фруктов после удаления - " + fruits.length + "<br>");
+	</script>
+</body>
+</html>

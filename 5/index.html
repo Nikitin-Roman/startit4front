@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script> 
+		function del(mas){
+			mas.splice(-2,1,"ананас");
+		}
+
+		var fruits = ["яблоко", "апельсин", "груша", "гранат"];
+		del(fruits);
+		document.write(fruits + "<br>");
+
+		var fruits2 = ["банан", "мандарин", "манго"];
+		del(fruits2);
+		document.write(fruits2);
+	</script>
+</body>
+</html>

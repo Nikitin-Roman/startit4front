@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script> 
+/*		Перепишите if..else с использованием нескольких операторов '?'.
+Для читаемости – оформляйте код в несколько строк.
+var message;
+if (login == 'Вася') {
+message = 'Привет';
+}
+else if (login == 'Директор') {
+message = 'Здравствуйте';
+}
+else if (login == '') {
+message = 'Нет логина';
+}
+else {
+message = '';
+} */
+		var login = prompt('Введите логин', '');
+
+		var message = (login == 'Вася') ? message = 'Привет' :
+			(login == 'Директор') ? message = 'Здравствуйте' :
+			(login == '') ? message = 'Нет логина' :
+				message = '';
+
+		document.write(message);
+	</script>
+</body>
+</html>
